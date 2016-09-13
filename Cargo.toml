@@ -1,0 +1,11 @@
+[package]
+authors = ["Mike Cooper <mythmon@gmail.com>"]
+name = "smithy-tera"
+version = "0.1.0"
+
+[dependencies]
+tera = "0.1.2"
+yaml-rust = "0.3.3"
+
+[dependencies.smithy]
+path = "../smithy/"
